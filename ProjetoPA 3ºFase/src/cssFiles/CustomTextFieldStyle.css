@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/nov/2017, 12:30:01
+    Author     : tinet
+    -fx-border-color: linear-gradient(from 0% 0% to 100% 200%, repeat, black 0%, transparent 45%, black 100%);
+*/
+
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao layout da caixa de texto personalizada.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+ */
+
+.label{
+    -fx-font-size: 14.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 50, 0.2, 0, 0);
+}
+
+
+
+.text-field{
+    -fx-border-color: black transparent black transparent;
+    -fx-background-color: transparent;
+    -fx-min-width: 165;
+    -fx-min-height: 39;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent; 
+    -fx-text-fill: black;
+    -fx-font-family: "Segoe UI light", Helvetica, Arial, sans-serif;
+    -fx-font-size: 10.0pt;
+    -fx-border-width: 1.0px ;
+}

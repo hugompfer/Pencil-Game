@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao layout 
+ * do menu de opções.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+
+ */
+
+.label{
+    -fx-font-size: 11pt;
+    -fx-font-family:  "Segoe UI SemiBold";
+    -fx-opacity: 1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, #33ff33, 56, 0.8, 0, 0);
+}

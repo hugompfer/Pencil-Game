@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao visualizador de registo.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+ */
+
+.button{
+    -fx-font-size: 13pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-base:  #00ffcc; 
+    -fx-text-fill: white;
+    -fx-min-width: 230;
+
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(purple, gold),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); 
+}
+
+#username-label{
+    -fx-font-size: 21.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, white, 50, 0.2, 0, 0);
+}
+
+.label{
+    -fx-font-size: 15.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, transparent, 50, 0.2, 0, 0);
+}
+

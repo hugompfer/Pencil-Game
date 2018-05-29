@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/nov/2017, 0:19:16
+    Author     : tinet
+
+ this.setStyle("-fx-background-image:url('http://getwallpapers.com/wallpaper/full/0/1/f/433283.jpg')");
+normal   this.setStyle("-fx-background-image:url('http://getwallpapers.com/wallpaper/full/9/d/e/446380.jpg')");
+ this.setStyle("-fx-background-image:url('https://img00.deviantart.net/76e3/i/2013/218/f/1/origin_storm_and_space_hd_7_by_diegosack-d6gv4oy.jpg')");
+        this.setStyle("-fx-background-image:url('https://wallpapersite.com/images/wallpapers/galaxy-1440x900-planet-hd-5708.jpg')");
+  this.setStyle("-fx-background-image:url('http://images4.fanpop.com/image/photos/24200000/cyan-star-cyan-24234496-1000-800.jpg')");
+ this.setStyle("-fx-background-image:url('https://pre00.deviantart.net/ca54/th/pre/i/2016/308/1/4/cyan_firework_effect_dl_by_zazitheangel19-danbwb7.jpg')");
+convertBtn.setId("ipad-grey");
+
+LAPIS https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0643/8804/r80s-pencilsLGY_shop_preview.png
+*/
+
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao layout do visualizador de login.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+ */
+
+.button {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;    
+    -fx-effect: dropshadow(three-pass-box, lightcyan, 15, 0.5, 0, 0);
+}
+
+#logout-button{
+    -fx-effect: dropshadow(three-pass-box, lightcyan, 5, 0.2, 0, 0);
+}
+
+#logout-view {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;    
+    -fx-effect: dropshadow(three-pass-box, lightcyan, 14, 0.6, 0, 0);
+}
+
+
+.text-field {
+    -fx-border-color: black black black white;
+    -fx-min-width: 170;
+    -fx-max-width: 250;
+    -fx-min-height: 35;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent; 
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI light", Helvetica, Arial, sans-serif;
+    -fx-font-size: 15px;   
+    -fx-background-radius: 0;
+    -fx-background-insets: 0, 1 0 0 0 ;
+    -fx-padding: 1 ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+}
+
+.label{
+    -fx-font-size: 26.5pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, lightcyan, 40, 0.6, 0, 0);
+}
+
+#credential-label{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, black, 3, 0.8, 0, 0);
+}
+
+.button{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-base: cyan; 
+    -fx-text-fill: black;
+    -fx-min-width: 230;
+}
+
+#label-show-pass{
+    -fx-font-size: 9.1pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+}
+
+.check-box{
+    -fx-effect: dropshadow(three-pass-box, lightcyan, 20, 0.7, 0, 0);
+}
+.line{
+    -fx-effect: dropshadow(three-pass-box, lightcyan, 20, 0.7, 0, 0);
+}
+

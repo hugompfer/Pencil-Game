@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao layout 
+ * do menu de opções.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+
+#register-tab{
+    -fx-font-size: 10.5pt;
+    -fx-font-family:  "Segoe UI SemiBold";
+    -fx-opacity: 1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, cyan, 43, 0.7, 0, 0);
+}
+
+
+*/
+
+.tab-header-background {
+    -fx-background-color: grey;
+}
+
+.tab{
+    -fx-border-color: transparent transparent transparent transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+
+
+.label{
+    -fx-font-size: 11pt;
+    -fx-font-family:  "Segoe UI SemiBold";
+    -fx-opacity: 1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, cyan, 55, 0.8, 0, 0);
+}
+
+.label.text{
+
+    -fx-stroke: firebrick;
+    -fx-stroke-width: 2px;
+}
+
+#login-label{
+    
+
+}
+
+#register-label{    
+   
+}
+
+#game-label{    
+   
+}
+
+#account-label{
+    
+}
+
+#statistics-label{    
+    -fx-font-size: 10.2pt;
+  
+
+}
+
+#configuration-label{    
+    -fx-font-size: 8.55pt;
+    
+
+}
+
+.tab-header-area {
+    -fx-padding: -1 -1 -5 -1 ;
+}
+
+
+
+
+
+

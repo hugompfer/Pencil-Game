@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao layout 
+ * do menu de opções.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+
+ */
+
+.label{
+    -fx-font-size: 17.0pt;
+    -fx-font-family:  "Segoe UI light";
+    -fx-opacity: 1;
+    -fx-font-weight: bold;
+   
+    -fx-effect: dropshadow(three-pass-box, transparent, 1.5, 0.8, 0, 0);
+}
+
+
+
+#title-label{
+
+    -fx-font-size: 29.0pt;
+    -fx-font-family:  "Segoe UI light";
+
+}
+
+.button{
+
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 18px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+#deactivation-button{
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(coral, red),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+
+}
+
+
+#ativation-button{
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(greenyellow, green),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+
+
+.combo-box{
+    -fx-border-color: white white white white;
+    -fx-background-color: transparent;
+
+}
+
+.combo-box .cell{
+    -fx-text-fill: white;
+    -fx-font: 13.5px "Segoe UI light";
+    -fx-background-color:  linear-gradient(black,transparent);
+}

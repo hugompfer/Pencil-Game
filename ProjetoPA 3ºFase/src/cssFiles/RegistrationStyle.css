@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/**
+ * Representa o ficheiro Css onde estão definidas especificações relativas ao visualizador de registo.
+ *
+ * @author Hugo Ferreira (160221089) e Tiago Neto (160221086)
+ * @version 1.0 (22/11/2017)
+ */
+
+.button{
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-base:  #00ffcc; 
+    -fx-text-fill: white;
+    -fx-min-width: 200;
+}
+
+#button{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-base:  #00ffcc; 
+    -fx-text-fill: white;
+    -fx-min-width: 230;
+
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#00ffcc, slateblue),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); 
+}
+
+#button-clear{
+
+    -fx-min-width: 150;
+}
+
+.label{
+    -fx-effect: dropshadow(three-pass-box, grey, 45, 0.75, 0, 0);
+}
+
+#fill-info-label{
+    -fx-font-size: 24.5pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, transparent, 40, 0.75, 0, 0);
+}
+
+#visualizar-password-label{
+    -fx-font-size: 8pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, transparent, 2, 0.5, 0, 0);
+}
+
+.date-picker{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent; 
+    -fx-background-color: transparent;
+}
+
+
+.date-picker.label{
+    -fx-text-fill: black;
+}
